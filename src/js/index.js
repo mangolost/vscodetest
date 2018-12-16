@@ -1,3 +1,5 @@
+"use strict";
+
 window.onload = function () {
     let $title = document.querySelector("#title");
     let classList = $title.classList;
