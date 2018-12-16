@@ -1,0 +1,28 @@
+{
+  "name": "project0001",
+  "version": "1.0.0",
+  "description": "An electron demo project",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-packager ./ myapp --out=./build --overwrite --platform=win32 --arch=x64 --ignore=.vscode --ignore=node_modules",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mangolost/vscodetest.git"
+  },
+  "keywords": [
+    "electron"
+  ],
+  "author": "mangolost",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mangolost/vscodetest/issues"
+  },
+  "homepage": "https://github.com/mangolost/vscodetest#readme",
+  "devDependencies": {
+    "electron": "^3.0.12",
+    "electron-packager": "^13.0.1"
+  }
+}

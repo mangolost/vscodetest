@@ -1,4 +1,4 @@
-// import Rx from 'rxjs/Rx';
+"use strict";
 
 window.onload = function () {
     let $title = document.querySelector("#title");
